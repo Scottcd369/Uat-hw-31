@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="creds.js"></script>
+    <link href="creds.css" rel="stylesheet" type="text/css"?>
+</head>
+<script>
+    alert("Attention, I need your name!")
+</script>
+<body>
+    <h1> GIVE ME YOUR NAME PLEASE!</h1>
+    <form id = "Liveform" on submit="return false">
+        First name :     <input type = "text" id = "firstname" /> <br>
+        Last name:          <input type = "number" id = "lastname" /> <br>
+        <input type = "submit" onclick = "checkCred()";/>
+    </form>
+</body>
+</html>
